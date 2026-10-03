@@ -461,8 +461,8 @@ EDGE_HOSTS = [
     for h in os.environ.get(
         "EDGE_HOSTS",
         "jobsdb.com:2096,mfa.gov.ua:2083,cdn.fiatnorm.us.kg:2083,dianomi.com:2096,"
-        "icook.hk:443,serviceshub.samsclub.com:443,spring.io:443,jobsdb.com:443,www.5h.com:443,www.vmware.com:443,cloudflare.idc.rocks:443,cloudflare,ip.mofashi.ltd:443,mfa.gov.ua:443,gitlab.com:443,dianomi.com:443,email.lg.com:443mimages.chesscomfiles.com:443"
-        "cdn.555586.xyz:443,markmonitor.com:443,www.leics.police.uk:443,www.speedtest.net:443,224322.xyz:443,hsl.upstate.edu:44,cf.777791.xyz:443,img.css.sd:443,cf2.996616.xyz:443,www.giannidelprete.it:443,xn--b6gac.eu.org:443,cdn.cnno.de:443,www.mlkj888.com:443,www.doiting.com:443,www.shopify.com:443,development.ihg.com:443,carpt.net:443,my.vultr.com:443,openai.com:443,vayyar.com:443,www.dbs.com.sg:443,stlouiscountymo.gov:443,9mod.com:443,tinyurl.com:443,www.donaldjtrump.com:443,zoominfo.com:443,smapi.xystem138.com:443,sunkist.com:443,garuda,indonesia.com:443,encryptedsni.com:443,dev.graco.com:443,dynadot.com:443,fonts.cdnfonts.com:443,cdn.nodeimage.com:443,academy.mastercard.com:443,sourceforge.net:443],www.spacex.com:443,absen.com:443,101yaoye.com:443,kniu.cc:4430,cf.xreak.top:443,www.trumpgolf.com:443,baota.us.kg:443,cf.1o.ee:443,cf.3666888.xyz:443,www.visa.com.au:443,01-cctv.com:443,cf.itv888.cn:443,dnew.cc:443,debot.ai:443,www.people.inc:443",
+        "icook.hk:443,serviceshub.samsclub.com:443,"
+        "www.5h.com:443,cdn.555586.xyz:443,serviceshub.samsclub.com:443,224322.xyz:443,www.shopify.com:443,email.lg.com:443,jobsdb.com:443,openai.com:443,"
     ).split(",")
     if h.strip()
 ]
